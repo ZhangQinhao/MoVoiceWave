@@ -1,6 +1,7 @@
 plugins {
     id 'com.android.library'
 }
+apply from: "${rootProject.projectDir}/movoicewavelib/publish-mavencentral.gradle"
 
 android {
     compileSdkVersion 29

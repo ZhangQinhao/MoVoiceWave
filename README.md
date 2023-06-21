@@ -9,6 +9,10 @@
 ![enter description here][7]  
 ![enter description here][8]
 
+### 引入
+
+在build.gradle引入  `implementation 'io.github.zhangqinhao:MoVoiceWave:1.0.1'`
+
 ``` stylus
 <com.monke.movoicewavelib.MoVisualizerView
         android:id="@+id/movv"
