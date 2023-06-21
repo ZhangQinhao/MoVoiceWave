@@ -1,0 +1,4 @@
+include ':movoicewavelib'
+include ':mopermissionlib'
+include ':app'
+rootProject.name = "VoiceWave"

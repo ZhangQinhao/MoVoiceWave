@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_start"
+            android:layout_width="100dp"
+            android:layout_height="48dp"
+            android:text="播放" />
+
+        <Button
+            android:id="@+id/btn_stop"
+            android:layout_width="100dp"
+            android:layout_height="48dp"
+            android:text="停止" />
+
+        <Button
+            android:id="@+id/btn_release"
+            android:layout_width="100dp"
+            android:layout_height="48dp"
+            android:text="释放" />
+    </LinearLayout>
+
+    <com.monke.movoicewavelib.MoVisualizerView
+        android:id="@+id/movv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:padding="3dp" />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_type_0"
+                android:layout_width="60dp"
+                android:layout_height="48dp"
+                android:text="样式0" />
+
+            <Button
+                android:id="@+id/btn_type_1"
+                android:layout_width="60dp"
+                android:layout_height="48dp"
+                android:text="样式1" />
+
+            <Button
+                android:id="@+id/btn_type_2"
+                android:layout_width="60dp"
+                android:layout_height="48dp"
+                android:text="样式2" />
+
+            <Button
+                android:id="@+id/btn_type_3"
+                android:layout_width="60dp"
+                android:layout_height="48dp"
+                android:text="样式3" />
+
+            <Button
+                android:id="@+id/btn_type_4"
+                android:layout_width="60dp"
+                android:layout_height="48dp"
+                android:text="样式4" />
+
+            <Button
+                android:id="@+id/btn_type_5"
+                android:layout_width="60dp"
+                android:layout_height="48dp"
+                android:text="样式5" />
+
+            <Button
+                android:id="@+id/btn_type_6"
+                android:layout_width="60dp"
+                android:layout_height="48dp"
+                android:text="样式6" />
+
+            <Button
+                android:id="@+id/btn_type_7"
+                android:layout_width="60dp"
+                android:layout_height="48dp"
+                android:text="样式7" />
+        </LinearLayout>
+    </HorizontalScrollView>
+</LinearLayout>

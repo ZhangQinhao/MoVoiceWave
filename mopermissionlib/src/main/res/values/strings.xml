@@ -1,0 +1,8 @@
+<resources>
+    <string name="moperission_warn_default">权限缺失</string>
+    <string name="moperission_request">申请</string>
+    <string name="moperission_cancel">取消</string>
+    <string name="moperission_exit">退出</string>
+    <string name="mopermission_window_default">是否开启悬浮窗权限</string>
+    <string name="mopermission_system_default">是否开启系统设置权限</string>
+</resources>

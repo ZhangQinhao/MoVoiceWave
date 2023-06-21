@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MoVisualizerView">
+        <attr name="movisualizerview_uiType" format="enum">
+            <enum name="linePoint" value="0" />
+            <enum name="cylinder" value="1" />
+            <enum name="block" value="2" />
+            <enum name="rect" value="3" />
+            <enum name="point" value="4" />
+            <enum name="bone" value="5" />
+            <enum name="ripple" value="6" />
+            <enum name="brokenLine" value="7" />
+        </attr>
+    </declare-styleable>
+</resources>
